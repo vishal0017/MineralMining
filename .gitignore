@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+venv/
+.venv/
+
+# Generated outputs (reproducible by running the pipeline) are kept out of
+# version control except for the .gitkeep placeholders, so the repo stays
+# small. Delete the two lines below if you'd rather commit the generated
+# figures/tables as-is.
+outputs/data/*
+outputs/figs/*
+!outputs/data/.gitkeep
+!outputs/figs/.gitkeep
